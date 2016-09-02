@@ -30,7 +30,12 @@ $min_need = array (
 echo 'Min set level: '.array_sum($min_need)."\n";
 
 class Model {
-    $a = 100;
-    $b = 200;
-    echo $a + $b;
+    private $a = 100;
+    private $b = 200;
+    
+    public function sum() {
+        return $this->a + $this->b;
+    }
 }
+
+echo (new Model())->sum();
