@@ -1,8 +1,9 @@
 <?php
-class NewClass {
-    private $author = 'Bob';
 
-    public function disclaimer() {
-        return $this->author . ' v2';
+class NewClass {
+    private $by = 'Alice';
+
+    public function version() {
+        return $this->by . 'v1.0.1';
     }
 }
