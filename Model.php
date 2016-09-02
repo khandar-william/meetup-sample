@@ -28,3 +28,9 @@ $min_need = array (
   'wizard' => 45,
 );
 echo 'Min set level: '.array_sum($min_need)."\n";
+
+class Model {
+    $a = 100;
+    $b = 200;
+    echo $a + $b;
+}
